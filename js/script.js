@@ -75,7 +75,7 @@ function createFrames(frameNumber,throwsPerFrame){
 			numberOfThrows = 0;
 		} else
 			numberOfThrows--;
-		frameTotal = frameTotal + ballTotal;
+		frameTotal += ballTotal;
 	}
 	if(throwsPerFrame == 1) frameThrows[frameThrows.length] = 0;
 	var thisFrame = new frame(frameNumber, frameThrows, frameTotal);
