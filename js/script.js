@@ -4,6 +4,7 @@ var totalFrames = 10;
 var throwsPerFrame = 2;
 var minPins = 0;
 var maxPins = 10;
+var templateFile = "http://www.remiolsen.info/bowling/template/frame.html";
 
 function frame(frameNumber,frameThrows,frameTotal){
 	this.frameNumber = frameNumber;
@@ -42,7 +43,7 @@ function populateTemplate(template){
 
 function printScore(){
 	$.ajax({
-		url: "template/frame.html",
+		url: templateFile,
 		cache: false
 	}).done(function(data) {
 		populateTemplate(data);
