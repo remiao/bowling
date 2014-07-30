@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	outline: none;
+}
+
+body{
+	font: 16px/1.3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#bowlingScores,header{
+	margin: 60px auto 0 auto;
+	text-align: center;
+	width: 715px;
+}
+
+h1{font-size: 22px;}
+
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	position: relative;
+}
+
+td{
+	border: 1px solid #000;
+	font-size: 0;
+	height: 75px;
+	padding: 0;
+	width: 65px;
+}
+
+.fNum{
+	background: rgb(240,240,240);
+	border-bottom: 2px solid rgb(0,0,0);
+	display: block;
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+	width: 100%;
+}
+
+.throw1, .throw2{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	vertical-align: top;
+	width: 50%;
+}
+
+.throw2{
+	border-bottom: 1px solid rgb(0,0,0);
+	border-left: 1px solid rgb(0,0,0);
+}
+
+.fTot{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 45px;
+	width: 100%;
+}
+
+button{
+	background: rgb(240,240,240);
+	border: 1px solid rgb(0,0,0);
+	font: 16px/2em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+}
